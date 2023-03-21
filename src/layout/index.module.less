@@ -1,0 +1,27 @@
+.Layout {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  background-image: url('~@/assets/images/backgoud.jpeg');
+  background-size: 100% 100%;
+  .header {
+    width: 100%;
+    height: 50px;
+    background-color: aliceblue;
+    padding: 20px;
+    span{
+      margin: 50px;
+      &:hover{
+        color:blue;
+        cursor: pointer;
+      }
+    }
+  }
+  .content {
+    width: 100%;
+    height: calc(100vh - 50px);
+    box-sizing: border-box;
+    padding: 50px;
+    overflow: auto;
+  }
+}
